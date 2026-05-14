@@ -1,0 +1,26 @@
+{
+  "name": "touristtech-processor",
+  "version": "1.0.0",
+  "description": "TouristTech – Cloud Function: image OCR → Gemini filter → Translation → TTS",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/storage": "^7.9.0",
+    "@google-cloud/vision": "^4.3.2",
+    "@google-cloud/translate": "^8.3.0",
+    "@google-cloud/text-to-speech": "^5.4.0",
+    "@google-cloud/vertexai": "^1.6.0",
+    "pg": "^8.12.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
