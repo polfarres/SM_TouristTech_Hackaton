@@ -135,7 +135,3 @@ See [`docs/IAM_ROLES.md`](docs/IAM_ROLES.md) for the full deployment commands in
 - Cloud Functions API (2nd gen)
 - Eventarc API
 - Cloud Run API
-
----
-
-*Built with ❤️ for Hackathon – Sistemes Multimedia*
